@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edf1c8">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="320dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:background="#e0d375"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="214dp"
+            android:layout_height="140dp"
+            android:layout_weight="0.34">
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="214dp"
+                android:layout_height="76dp"
+                android:text=" Physics Formulas"
+                android:paddingTop="40dp"
+                android:textSize="22dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="  Learning physics formulas is all about applying concepts to solve problems."
+                android:paddingLeft="8dp"
+                android:textSize="11dp"
+                android:textColor="#696969"/>
+            </LinearLayout>
+        <ImageView
+            android:id="@+id/grid_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="27dp"
+            android:src="@drawable/phy_2"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="320dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#e78468"
+            android:weightSum="1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="228dp"
+                android:layout_height="140dp">
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="260dp"
+            android:layout_height="76dp"
+            android:paddingTop="40dp"
+            android:textSize="22dp"
+            android:paddingLeft="5dp"
+            android:text="Chemistry Formulas"
+            android:textColor="#000000"
+            />
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="76dp"
+                    android:text=" A list of Chemistry formulas are available to solve problems."
+                    android:paddingLeft="8dp"
+                    android:textSize="11dp"
+                    android:textColor="#4B4B4B"/>
+                </LinearLayout>
+            <ImageView
+                android:id="@+id/grid_image1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/chemistry"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="320dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="#a64e63"
+                android:weightSum="1">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="214dp"
+                    android:layout_height="140dp"
+
+                    >
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="197dp"
+            android:layout_height="76dp"
+            android:paddingTop="40dp"
+            android:textSize="22dp"
+            android:paddingLeft="5dp"
+            android:text="Math Formulas"
+            android:textColor="#000000"
+           />
+                    <TextView
+                        android:layout_width="214dp"
+                        android:layout_height="match_parent"
+                        android:text="All the important formulas that you need for solving math problems."
+                        android:paddingLeft="8dp"
+                        android:textSize="11dp"
+                        android:textColor="#3C3C3C"/>
+                    </LinearLayout>
+                <ImageView
+                    android:id="@+id/grid_image2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="25dp"
+                    android:paddingLeft="35dp"
+                    android:src="@drawable/math_3"
+                    />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

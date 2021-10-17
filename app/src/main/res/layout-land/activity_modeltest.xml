@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="217dp"
+    android:orientation="vertical"
+       android:layout_weight="1.04"
+       android:weightSum="1">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="vertical"
+          android:background="#ff7994"
+          android:weightSum="1">
+          <ImageView
+              android:id="@+id/grid_image"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_marginLeft="300dp"
+              android:layout_marginTop="4dp"
+              android:src="@drawable/restaurant" />
+
+          <TextView
+           android:id="@+id/grid_text"
+           android:layout_width="600dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="1dp"
+           android:paddingLeft="15dp"
+           android:textSize="18sp"
+           android:textColor="#ffffff"
+           android:textStyle="bold"
+           android:text="Learning and sharing are critical elements in establishing one's identity" />
+
+        </LinearLayout>
+
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+            android:orientation="vertical"
+           android:weightSum="1"
+           android:background="#e1e1e1"
+            android:layout_weight="0.88">
+               <TextView
+               android:id="@+id/grid_text1"
+               android:layout_width="371dp"
+               android:layout_height="wrap_content"
+               android:paddingTop="4dp"
+               android:paddingLeft="20dp"
+               android:textSize="20sp"
+               android:textColor="#373f4c"
+               android:text="Your Choice ->"
+                   android:background="#ffffff"
+               />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_weight="0.20">
+            <ImageView
+                android:id="@+id/grid_image1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="17dp"
+                android:src="@drawable/test_1" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+            <TextView
+                android:id="@+id/grid_text2"
+                android:layout_width="347dp"
+                android:layout_height="51dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:textColor="#373f4c"
+                android:text="Chapter based Model Test"
+                android:onClick="onClick"
+                android:clickable="true"/>
+                <TextView
+                    android:layout_width="453dp"
+                    android:layout_height="20dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="12sp"
+                    android:textColor="#878787"
+                    android:text="All Subjects chapter based model test are organized here" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_weight="0.70">
+            <ImageView
+                android:id="@+id/grid_image2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/test" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+            <TextView
+                android:id="@+id/grid_text3"
+                android:layout_width="347dp"
+                android:layout_height="51dp"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:textColor="#373f4c"
+                android:text="Subject based Model Test"
+                android:background="#ffffff"
+                android:onClick="onClick"
+                android:clickable="true"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="12sp"
+                        android:textColor="#878787"
+                        android:text="All Subjects based model test are organized here" />
+                </LinearLayout>
+            </LinearLayout>
+         </LinearLayout>
+     </LinearLayout>
+</LinearLayout>

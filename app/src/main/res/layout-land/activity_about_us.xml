@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#373F4C"
+    tools:context="myapps.quiz1.Activity.AboutUsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="120dp">
+    <TextView
+        android:id="@+id/textnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="8dp"
+        android:text="About Developer:"
+        android:textSize="40px"
+        android:textStyle="normal"
+        android:textColor="#ffffff"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="120dp"
+            android:text="RUMA SINHA"
+            android:textSize="35px"
+            android:textStyle="normal"
+            android:textColor="#ffffff"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:text="COMPUTER SCIENCE AND ENGINEERING"
+            android:textSize="35px"
+            android:textStyle="normal"
+            android:textColor="#ffffff"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:text="METROPOLITAN UNIVERSITY,SYLHET"
+            android:textSize="35px"
+            android:textStyle="normal"
+            android:textColor="#ffffff"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="1dp"
+            android:text=" Contact:"
+            android:textSize="35px"
+            android:textStyle="normal"
+            android:textColor="#ffffff"/>
+     
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:text=" Address: Sylhet,Bangladesh."
+            android:textSize="30px"
+            android:textStyle="normal"
+            android:textColor="#ffffff"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:text=" Tel. +81-3-6421-3926"
+            android:textSize="30px"
+            android:textStyle="normal"
+            android:textColor="#ffffff"/>
+     
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:text="  Mail.ruma11@gmail.com"
+            android:textSize="30px"
+            android:textStyle="normal"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</RelativeLayout>

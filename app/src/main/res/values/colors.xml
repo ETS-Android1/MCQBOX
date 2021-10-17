@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#59dAA4</color>
+    <color name="colorPrimaryDark">#59dAA4</color>
+    <color name="colorAccent">#FFE3FF</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="buuton_color">#59daa4</color>
+    <color name="black">#0d0c0c</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+    <color name="bg_view_sms">#ffd423</color>
+    <color name="bg_view_otp">#fc6d38</color>
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="myapps.quiz1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+   <!-- <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoname"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+          android:name=".Activity.Main1Activity"
+          android:label="@string/app_name"
+          android:theme="@style/AppTheme.NoActionBar">
+
+       <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+
+              <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>
+        </activity>-->
+    <application
+        android:name="myapps.quiz1.App.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logoname"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity.Main1Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+           >
+        </activity>
+
+        <receiver android:name=".Receiver.SmsReceiver">
+            <intent-filter android:priority="99999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+
+        <service
+            android:name=".Services.HttpServices"
+            android:exported="false" />
+
+
+        <activity android:name=".Activity.SmsActivity"></activity>
+
+        <activity android:name=".Activity.SignActivity"></activity>
+        <activity android:name=".Activity.SettingsActivity"></activity>
+        <activity android:name=".Activity.AboutUsActivity"></activity>
+        <activity android:name=".Activity.PrivacyPolicyActivity"></activity>
+        <activity android:name=".Activity.ExitActivity"></activity>
+        <activity android:name=".Activity.HelpActivity"></activity>
+        <activity android:name=".Activity.LoginActivity"></activity>
+        <activity android:name=".Activity.CourseActivity"></activity>
+        <activity android:name=".Activity.rules.RulesActivity"></activity>
+        <activity android:name=".Activity.rules.Physicsrules"></activity>
+        <activity android:name=".Activity.physics1stpaper.Chapter11st"></activity>
+        <activity android:name=".Activity.physics2ndpaper.Chapter1st2"></activity>
+        <activity android:name=".Activity.physics2ndpaper.Chapter4th2"></activity>
+        <activity android:name=".Activity.physics2ndpaper.Chapter13rd2"></activity>
+        <activity android:name=".Activity.chemistry1stpaper.Chapter1st3"></activity>
+        <activity android:name=".Activity.chemistry1stpaper.Chapter2nd3"></activity>
+        <activity android:name=".Activity.chemistry1stpaper.Chapter3rd3"></activity>
+        <activity android:name=".Activity.chemistry1stpaper.Chapter4th3"></activity>
+        <activity android:name=".Activity.chemistry1stpaper.Chapter5th3"></activity>
+        <activity android:name=".Activity.chemistry2ndpaper.Chapter1st4"></activity>
+        <activity android:name=".Activity.chemistry2ndpaper.Chapter2nd4"></activity>
+        <activity android:name=".Activity.chemistry2ndpaper.Chapter3rd4"></activity>
+        <activity android:name=".Activity.chemistry2ndpaper.Chapter4th4"></activity>
+        <activity android:name=".Activity.chemistry2ndpaper.Chapter5th4"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter11st5"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter1st5"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter2nd5"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter4th5"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter5th5"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter6th5"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter7th5"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter8th5"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter9th5"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter11th5"></activity>
+        <activity android:name=".Activity.biology1stpaper.Chapter13rd5"></activity>
+        <activity android:name=".Activity.mathpaper.Chapter11st7"></activity>
+        <activity android:name=".Activity.SingleItemView"></activity>
+        <activity android:name=".Activity.course.Fragment_physics"></activity>
+        <activity android:name=".Activity.course.Fragment_physics1"></activity>
+        <activity android:name=".Activity.course.physics.Physics1Activity"></activity>
+        <activity android:name=".Activity.course.Fragment_chemistry"></activity>
+        <activity android:name=".Activity.course.Fragment_chemistry1"></activity>
+        <activity android:name=".Activity.course.Fragment_biology"></activity>
+        <activity android:name=".Activity.course.Fragment_biology1"></activity>
+        <activity android:name=".Activity.course.Fragment_math"></activity>
+        <activity android:name=".Activity.modeltest.ModeltestActivity"></activity>
+        <activity android:name=".Activity.modeltest.Modelmath"></activity>
+        <activity android:name=".Activity.modeltest.Modelmath1"></activity>
+        <activity android:name=".Activity.modeltest.Modelphysics"></activity>
+        <activity android:name=".Activity.modeltest.Modelphysics1"></activity>
+        <activity android:name=".Activity.modeltest.Modelchemistry"></activity>
+        <activity android:name=".Activity.modeltest.Modelchemistry1"></activity>
+        <activity android:name=".Activity.modeltest.Modelbiology"></activity>
+        <activity android:name=".Activity.modeltest.Modelbiology1"></activity>
+        <activity android:name=".Activity.modeltest.SubjectActivity"></activity>
+        <activity android:name=".Activity.modeltest.ChapterTestActivity"></activity>
+        <activity android:name=".Activity.modeltest.MixedSubjectActivity"></activity>
+        <activity android:name=".Activity.modeltest.SingleSubjectActivity"></activity>
+        <activity android:name=".Activity.modeltest.MixedTest1"></activity>
+        <activity android:name=".Activity.modeltest.Physics1Test"></activity>
+        <activity android:name=".Activity.modeltest.Test1Activity"></activity>
+
+
+        <activity android:name=".Activity.question.AddQuestionbanklist"></activity>
+        <activity android:name=".Activity.question.Sustquestion"></activity>
+        <activity android:name=".Activity.question.Duquestion"></activity>
+        <activity android:name=".Activity.question.Buetquestion"></activity>
+        <activity android:name=".Activity.question.Bauquestion"></activity>
+        <activity android:name=".Activity.question.Sauquestion"></activity>
+        <activity android:name=".Activity.question.Chiquestion"></activity>
+        <activity android:name=".Activity.question.SingleItemques"></activity>
+        <activity android:name=".Activity.question.DhakaQuestionActivity"></activity>
+        <activity android:name=".Activity.help.Physics1"></activity>
+        <activity android:name=".Activity.help.Chemistry2"></activity>
+        <activity android:name=".Activity.help.Math1"></activity>
+        <activity android:name=".Activity.help.Math2"></activity>
+        <activity android:name=".Activity.modeltest.ModelTest"></activity>
+        <activity android:name=".Activity.modeltest.ModelTest2"></activity>
+        <activity android:name=".Activity.technique.Phytechnique"></activity>
+        <activity android:name=".Activity.technique.Chetechnique"></activity>
+        <activity android:name=".Activity.ResultActivity"></activity>
+
+    </application>
+
+</manifest>

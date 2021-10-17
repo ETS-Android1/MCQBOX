@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+       <!-- <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"/>-->
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/ic_add_to_photos_black_24dp"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/app18"
+            android:title="Courses" />
+
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/test_1"
+            android:title="Model Test" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/course"
+            android:title="Shortcut techniques" />
+
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/formulas"
+            android:title="Rules and Formulas" />
+
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/about"
+                android:title="About Us" />
+
+    <item
+        android:id="@+id/nav_policy"
+        android:icon="@drawable/lock"
+        android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/icon"
+            android:title="Exit App" />
+
+    </group>
+
+</menu>

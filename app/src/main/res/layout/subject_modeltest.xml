@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:orientation="vertical"
+        android:layout_weight="1.04"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:orientation="vertical"
+            android:background="#ffa95a"
+            android:weightSum="1"
+            android:layout_weight="0.06">
+            <ImageView
+                android:id="@+id/grid_image"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/learning" />
+
+            <TextView
+                android:id="@+id/grid_text"
+                android:layout_width="347dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="35dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Strength of mind is exercise, not rest. ~ Alexander Pope"
+                android:layout_weight="0.16" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="#e1e1e1"
+            android:layout_weight="0.88">
+            <TextView
+                android:id="@+id/grid_text1"
+                android:layout_width="371dp"
+                android:layout_height="50dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:textColor="#373f4c"
+                android:text="Your Choice ->"
+                android:layout_weight="0.05"
+                android:background="#ffffff"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:background="#ffffff">
+                <ImageView
+                    android:id="@+id/grid_image1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="19dp"
+                    android:src="@drawable/test_1" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="106dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/grid_text2"
+                        android:layout_width="347dp"
+                        android:layout_height="51dp"
+                        android:paddingTop="25dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="17sp"
+                        android:textColor="#373f4c"
+                        android:text="All Subject mixed Model Test" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="20dp"
+                        android:textSize="12sp"
+                        android:textColor="#878787"
+                        android:text="Here 8 subjects mixed model test are organized " />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:background="#ffffff">
+                <ImageView
+                    android:id="@+id/grid_image2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="19dp"
+                    android:src="@drawable/test" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="106dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/grid_text3"
+                        android:layout_width="347dp"
+                        android:layout_height="51dp"
+                        android:paddingTop="25dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="17sp"
+                        android:textColor="#373f4c"
+                        android:text="Single Subject Model Test"
+                        android:background="#ffffff"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="20dp"
+                        android:textSize="12sp"
+                        android:textColor="#878787"
+                        android:text="Here single subject model test are organized " />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

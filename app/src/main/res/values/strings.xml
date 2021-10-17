@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">MCQ BOX</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">profile</string>
+    <string name="nav_course">Subjects</string>
+    <string name="nav_question">Question Bank</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_test">Model test</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="menu_settings">Settings</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>profile</item>
+        <item>Subjects</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="Add_New">Add New</string>
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="save">Save</string>
+
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="location">Location</string>
+    <string name="age">Age</string>
+    <string name="blood">Blood_group</string>
+    <string name="deletedonner">Confirm person deletion.</string>
+    <string name="yes">Confirm</string>
+    <string name="no">Cancel</string>
+
+
+
+
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sms">SmsActivity</string>
+    <string name="msg_enter_mobile">Enter your mobile number to get started!</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_email">Username</string>
+    <string name="lbl_mobile">Mobile</string>
+    <string name="lbl_next">NEXT</string>
+    <string name="msg_sit_back">Sit back &amp; Relax! while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">SUBMIT</string>
+</resources>

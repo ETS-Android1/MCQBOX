@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/model">
+
+    <LinearLayout
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="220dp">
+
+        <TextView
+            android:id="@+id/timers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="00:00:00"
+            android:textColor="#fff"
+            android:textSize="25.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:shape="rectangle"
+        android:paddingLeft="10dp"
+        android:layout_weight="0.16"
+        android:background="@drawable/my_border"
+        android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.58">
+        <TextView
+            android:id="@+id/quid"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="5"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="50"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:textColor="#000"/>
+      </LinearLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:layout_marginTop="30dp">
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:buttonTint="@color/buuton_color"
+
+            android:textColor="#000" />
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/buuton_color"
+            android:textColor="#000" />
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/buuton_color"
+            android:textColor="#000" />
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/buuton_color"
+            android:textColor="#000" />
+        />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:background="#e573a6"
+
+        android:text="next"
+        android:textColor="#ffffff"
+        />
+    </LinearLayout>
+</LinearLayout>
