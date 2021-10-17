@@ -1,4 +1,4 @@
-# MCQBOX is
+# MCQBOX is a Android and web based project for university admission test .
 
 Getting started
 Script
